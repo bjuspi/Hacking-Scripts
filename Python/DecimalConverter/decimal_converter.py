@@ -8,6 +8,9 @@ Created on Sun Jan  3 20:34:36 2021
 def decimal_to_base(decimal, base):
     destination = []
     
+    if (decimal == 0):
+        return "0"
+    
     while (decimal != 0):
         quotient = decimal // base
         remainder = decimal % base
