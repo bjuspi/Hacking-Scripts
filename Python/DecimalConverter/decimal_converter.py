@@ -1,10 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jan  3 20:34:36 2021
-
-@author: bjusp
-"""
-from decimal_to_letters import decimal_to_letters
+import decimal_letters_map
 
 def decimal_to_base(decimal, base):
     destination = []
@@ -17,7 +11,7 @@ def decimal_to_base(decimal, base):
         remainder = decimal % base
         
         if remainder > 9:
-            remainder = decimal_to_letters(remainder)
+            remainder = decimal_letters_map.decimal_to_letters(remainder)
         
         destination.append(remainder)
         decimal = quotient

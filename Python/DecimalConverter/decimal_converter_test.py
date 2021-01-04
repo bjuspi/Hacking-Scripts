@@ -1,11 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jan  3 20:26:52 2021
-
-@author: bjusp
-"""
-from decimal_converter import decimal_to_base
 import unittest
+from decimal_converter import decimal_to_base
 
 class TestDecimalToBase(unittest.TestCase):
     def test_binary_basic(self):
