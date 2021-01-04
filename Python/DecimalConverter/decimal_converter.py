@@ -4,6 +4,7 @@ Created on Sun Jan  3 20:34:36 2021
 
 @author: bjusp
 """
+from decimal_to_letters import decimal_to_letters
 
 def decimal_to_base(decimal, base):
     destination = []
@@ -14,6 +15,9 @@ def decimal_to_base(decimal, base):
     while (decimal != 0):
         quotient = decimal // base
         remainder = decimal % base
+        
+        if remainder > 9:
+            remainder = decimal_to_letters(remainder)
         
         destination.append(remainder)
         decimal = quotient

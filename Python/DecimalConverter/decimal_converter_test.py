@@ -20,6 +20,12 @@ class TestDecimalToBase(unittest.TestCase):
         expected = "176"
         self.assertEqual(decimal_to_base(testcase, base), expected)
         
+    def test_hexadecimal_basic(self):
+        testcase = 126
+        base = 16
+        expected = "7E"
+        self.assertEqual(decimal_to_base(testcase, base), expected)
+    
     def test_zero(self):
         testcase = 0
         base = 2
