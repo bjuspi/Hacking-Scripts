@@ -11,19 +11,19 @@ class TestDecimalToBase(unittest.TestCase):
     def test_binary_basic(self):
         testcase = 35
         base = 2
-        expected = 100011
+        expected = "100011"
         self.assertEqual(decimal_to_base(testcase, base), expected)
         
     def test_octal_basic(self):
         testcase = 126
         base = 8
-        expected = 176
+        expected = "176"
         self.assertEqual(decimal_to_base(testcase, base), expected)
         
     def test_zero(self):
         testcase = 0
         base = 2
-        expected = 0
+        expected = "0"
         self.assertEqual(decimal_to_base(testcase, base), expected)
         
     def test_negative(self):

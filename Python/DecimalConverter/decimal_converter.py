@@ -17,4 +17,4 @@ def decimal_to_base(decimal, base):
         
     destination.reverse()
     destination = [str(i) for i in destination] 
-    return int("".join(destination))
+    return "".join(destination)
