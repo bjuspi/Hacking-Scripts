@@ -11,4 +11,4 @@ def decimal_to_letters(decimal):
     return decimal_letters_map[decimal]
 
 def letters_to_decimal(letter):
-    return decimal_letters_map.keys()[decimal_letters_map.values().index(letter)]
+    return list(decimal_letters_map.keys())[list(decimal_letters_map.values()).index(letter)]
