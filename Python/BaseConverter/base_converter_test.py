@@ -1,7 +1,7 @@
 import unittest
 from base_converter import base_to_decimal
 
-class TestDecimalToBase(unittest.TestCase):
+class TestBaseToDecimal(unittest.TestCase):
     def test_binary_basic(self):
         testcase = "100011"
         base = 2
