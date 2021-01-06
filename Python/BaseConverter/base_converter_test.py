@@ -26,5 +26,23 @@ class TestBaseToDecimal(unittest.TestCase):
         expected = 0
         self.assertEqual(base_to_decimal(testcase, base), expected)
 
+    def test_binary_fraction(self):
+        testcase = "110.11"
+        base = 2
+        expected = 6.75
+        self.assertEqual(base_to_decimal(testcase, base), expected)
+        
+    def test_octal_fraction(self):
+        testcase = "23.17"
+        base = 8
+        expected = 19.234
+        self.assertEqual(base_to_decimal(testcase, base), expected)
+        
+    def test_hexadecimal_fraction(self):
+        testcase = "1A.23"
+        base = 16
+        expected = 26.137
+        self.assertEqual(base_to_decimal(testcase, base), expected)
+
 unittest.main()
     
