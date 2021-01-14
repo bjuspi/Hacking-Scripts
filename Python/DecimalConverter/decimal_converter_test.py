@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import unittest
 from decimal_converter import decimal_to_base
 

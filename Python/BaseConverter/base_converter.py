@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import decimal_letters_map
 
 def base_to_decimal(source, base):

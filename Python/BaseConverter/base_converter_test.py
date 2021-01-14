@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import unittest
 from base_converter import base_to_decimal
 

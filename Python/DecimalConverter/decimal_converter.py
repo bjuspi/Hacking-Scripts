@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import decimal_letters_map
 import math
 
