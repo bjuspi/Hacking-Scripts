@@ -4,7 +4,7 @@ import unittest
 from modular_factorial import modular_factorial
 
 class TestModularFactorial(unittest.TestCase):
-    def test_modular_factorial(self):
+    def test_modular_factorial_basic(self):
         # testcase
         n =  5
         k = 13
