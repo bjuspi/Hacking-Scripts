@@ -13,6 +13,16 @@ class TestIsPrimeSqrt(unittest.TestCase):
         testcase = 10
         expected = False
         self.assertEqual(is_prime_sqrt(testcase), expected)
+        
+    def test_is_prime_sqrt_basic_square(self):
+        testcase = 25
+        expected = False
+        self.assertEqual(is_prime_sqrt(testcase), expected)
+    
+    def test_is_prime_sqrt_edge(self):
+        testcase = 2
+        expected = True
+        self.assertEqual(is_prime_sqrt(testcase), expected)
        
     def test_is_prime_sqrt_large(self):
         testcase = 2887132691
