@@ -2,7 +2,7 @@ def subset_sum(arr, k):
     return solve(0, 0, arr, k)
 
 def solve(i, sum, arr, k):
-    if i > len(arr):
+    if i > len(arr)-1:
         if sum == k:
             return True
         else:
