@@ -13,7 +13,5 @@ class TestSubsetSum(unittest.TestCase):
         k = 2000
         expected = False
         self.assertEqual(subset_sum(testcase, k), expected)
-    
-
 
 unittest.main()
