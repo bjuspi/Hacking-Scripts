@@ -1,3 +1,4 @@
-# Hacking-Scripts
+# README
 
 Random python scripts for fun
+
