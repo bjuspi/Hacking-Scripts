@@ -1,3 +1,3 @@
 # Hacking-Scripts
 
-Random python scripts
+Random python scripts for fun
